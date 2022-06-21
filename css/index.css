@@ -322,10 +322,10 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     display: flex;
+    align-items: center;
 }
 
 .nutrition-text {
-    margin-top: 5rem;
     margin-left: 3%;
     margin-right: 7%;
 }
