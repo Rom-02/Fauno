@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fauno | Artículos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
@@ -56,8 +57,8 @@
     <section id="information" class="information">
         <h2 class="information-title"> NOTAS </h2>
     <!-- nota 1 -->
-        <a href="">
-            <article class="nutrition">
+        <!-- <a href=""> -->
+            <article id="nutrition-deck" class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="../img/dog-eating.png" alt="foto de perro comiendo">
                 </picture>
@@ -65,14 +66,38 @@
                     <h2 class="nutrition-deck">PERROS CACHORROS Y ADULTOS</h2>
                     <h3 class="nutrition-headline">¿Qué debe y que no debe comer un perro?</h3>
                     <p class="nutrition-lead">Es probable que en más de una ocasión te hayas parado a pensar si ese alimento que estás a punto de darle a tu perro es beneficioso para tu mejor amigo o no. Es por todos bien sabido que no se recomienda dar gominolas, chocolate o cerveza a los perros pero, ¿es recomendable darle uvas o pimientos?</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">¿Qué debe y que no debe comer un perro?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            Una infografía <span class="offcanvas-highlight">llevada a cabo por el sitio Here Pup!</span> ha dado a conocer <span class="offcanvas-highlight">qué alimentos pueden ser consumidos por los perros y cuáles hay que evitar a toda costa</span>. La infografía muestra, a través de cuatro colores, (verde, amarillo, naranja y rojo) todos aquellos alimentos que el perro puede comer sin ningún problema y, al mismo tiempo, aquellos que están absolutamente prohibidos.
+                            <h5 class="offcanvas-subtitle">Carne, arroz y pescado, entre los mejores alimentos para los perros</h5>
+                            Los alimentos que aparecen sobre el apartado verde, es decir, aquellos que los perros pueden comer sin ningún problema, son los siguientes: <span class="offcanvas-highlight">arroz, lechuga, plátano, zanahoria, pera, melón, carne, manteca de cacahuete, pescado y espinacas.</span>
+                            <span class="offcanvas-highlight">En amarillo se dan a conocer los alimentos que los perros pueden comer, siempre y cuando sea con moderación.</span> Entre ellos se encuentran la piña, los perritos calientes, las patatas, la sandía, el queso, las setas, los tomates, el brócoli, los arándanos, las fresas, las manzanas y el pan.
+                            <h5 class="offcanvas-subtitle">Cuidado con los pimientos y las uvas</h5>
+                            A continuación aparecen los alimentos que es mejor no dar a los perros. Bajo un tono anaranjado destacan los siguientes productos: <span class="offcanvas-highlight">langostinos, palomitas, almendras, apio, cerezas, pimiento, maíz o nubes de malvavisco.</span>
+                            Por último, en color rojo, se dan a conocer los alimentos que quedan totalmente prohibidos puestos que pueden resultar tóxicos para nuestros mejores amigos. En este listado aparecen <span class="offcanvas-highlight"> nueces, las cebollas, los ajos, los aguacates, las uvas, las gominolas, la cerveza, la granada, el chocolate o los cacahuetes.</span>
+                            <picture>
+                                <img class="offcanvas-img-1" src="../img/offcanvas-1.jpg" alt="infografía sobre los alimentos que pueden y que no pueden comer los perros">
+                            </picture>
+                            <div class="dropdown mt-3"></div>
+                        </div>
+                    </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
-        </a>
+        <!-- </a> -->
     <!-- fin nota 1 -->
     <!-- nota 2 -->
-        <a href="">
-            <article class="nutrition">
+        <!-- <a href=""> -->
+            <article id="nutrition-deck2" class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="../img/cats-eating.png" alt="foto de dos gatos siendo alimentados">
                 </picture>
@@ -80,10 +105,33 @@
                     <h2 class="nutrition-deck">GATOS ADULTOS</h2>
                     <h3 class="nutrition-headline">¿Qué necesita comer un gato?</h3>
                     <p class="nutrition-lead">¿Qué comen los gatos? ¿Cuál es la alimentación adecuada para estos felinos? Te contamos lo que necesitas saber para no cometer errores y mantener una buena salud y forma física en tu mascota favorita.</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">¿Qué debe comer un gato? Su alimentación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                                <div class="offcanvas-body">
+                                El gato es un animal estrictamente carnívoro. Se alimenta de lo que caza, no es carroñero, y basa su dieta en la ingesta de roedores, pájaros, reptiles y, ocasionalmente, pequeños insectos y peces. Grasas y proteínas son la 
+                                esencia de su alimentación, dejando de la lado los hidratos de carbono ya que el gato no es capaz de asimilar adecuadamente la glucosa que estos producen y, por extensión, cualquier tipo de azúcar (lo que puede provocar 
+                                problemas de diabetes). Los gatos necesitan mayor aporte de grasas y proteínas que los perros, y ciertos aminoácidos que su organismo no procesa adecuadamente y que deben aportarse en la dieta, como la taurina y la arginina.
+                                Es importante tener presente que un gato no puede pasar sin comer más de tres días. Una de las características de su organismo es que el hígado, ante la falta de alimento, sufre un cambio metabólico que puede provocar un fallo grave que ponga en peligro la vida del animal.
+                                Los gatos tienen unas necesidades alimentarias específicas que deben contemplarse en su dieta, y que se deben reflejar en la administración equilibrada de los diferentes nutrientes. Según un informe publicado en 2010 por el Centro de Nutrición Animal Waltham, el gato tiende por naturaleza a mantener una dieta rica en proteínas y grasas, y a evitar los hidratos de carbono ya que su organismo no es capaz de asimilarlos.
+                                <h5 class="offcanvas-subtitle">Las proteínas en los gatos</h5>
+                                El aparato digestivo de un gato, como carnívoro puro que es, está preparado para la asimilación de altas cantidades de proteínas de origen animal (carne y pescado). Carnes, vísceras, pescado y huevos son las principales fuentes de proteína animal.
+                                En cualquier caso, no olvide que siempre es mejor consultar a su veterinario el tipo de dieta que más conviene a su perro en función de sus necesidad metabólicas.
+                                La alimentación de un gato exige la presencia de proteínas ya que aportan la mayor parte de la energía que permite que el cuerpo funcione adecuadamente. Las proteínas están compuestas de aminoácidos, elementos esenciales en la asimilación y almacenamiento de los nutrientes (agua, proteínas, carbohidratos, grasas, vitaminas y minerales) y que se encuentran fundamentalmente en los tejidos musculares y las vísceras. Participan de forma sustancial en la formación de tejidos blandos, como los músculos, los tendones o el cartílago; y son necesarios para la transmisión de los impulsos eléctricos del sistema nervioso. 
+                                <div class="dropdown mt-3"></div>
+                            </div>
+                        </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
-        </a>
+        <!-- </a> -->
     <!-- fin nota 2 -->
     <!-- nota 3 -->
         <a href="">
@@ -96,7 +144,37 @@
                     <h2 class="nutrition-headline">¿Qué síntomas muestran los perros cuando están estresados?</h2>
                     <p class="nutrition-lead">Sospechas que a tu perro no le gusta especialmente verse rodeado de perros extraños, que lo pasa mal cuando se queda solo en casa, y que 
                         las tormentas le dan miedo. Pero, ¿es posible reconocer el estrés o la ansiedad en tu perro en señales concretas?</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">¿Qué síntomas muestran los perros cuando están estresados?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                                <div class="offcanvas-body">
+                                Los perros tienen dos formas de comunicarnos cómo se sienten: con <span class="offcanvas-highlight">su lenguaje corporal y con sus ladridos</span>. Y las dos nos ayudan a reconocer cuándo nuestro perro se siente incómodo o, directamente, estresado.
+                                “Si tu perro <span class="offcanvas-highlight">se lame el hocico de repente</span>, sin que esté relacionado con la comida, o si bosteza sin motivo aparente o fuera de contexto, puede indicar que está estresado”, explica Virginia Rueda, etóloga canina.
+                                Del mismo modo, si tu camarada perruno <span class="offcanvas-highlight">se queda prácticamente quieto</span>, no se mueve, también puede constituir una respuesta al estrés. Otras veces, las señales resultan más sutiles: como determinadas facciones de la cara (más fruncidas y rígidas), los ojos entrecerrados o sus orejas aplanadas, y hacia detrás, las que delaten que nuestro amigo se siente incómodo.
+                                <h5 class="offcanvas-subtitle">Y esos ladridos: ¿son estrés o que quiere algo de ti?</h5>   
+                                Los ladridos perrunos pueden desconcertarnos: aunque tu amigo los use, sobre todo, para hablar o comunicarse contigo, lo cierto es que también ladra cuando está frustrado, o como señal de alerta. Y, también, si se siente estresado. Ahora bien: no todos los ladridos suenan igual.
+                                Para saber por qué ladra tu perro y <span class="offcanvas-highlight">cómo distinguir un ladrido</span>, por ejemplo, de búsqueda de atención, de otro que denote estrés, hay que fijarse en “el tono, la fuerza, y la intensidad de la vocalización, porque será distinta”, apunta David Menor, doctor en Etología y miembro del grupo de Etología Clínica de la Universidad de Córdoba.
+                                Según Menor, mientras que el ladrido de búsqueda de atención suele sonar más agudo, y tu perro lo emite en cadenas de ladridos, con pausas entre ellas, para evaluar tu respuesta (“¿ha funcionado?” “¿He logrado que mi humano me tire la pelota?”), un ladrido de ansiedad o que denote miedo sonará más grave y gutural.
+                                Otra clave para distinguirlo: “El ladrido de un perro que siente estrés puede ser monótono y repetitivo; y mezclarse con aullidos o gemidos”; anota, por su parte, el veterinario, Germán Quintana.
+                                <h5 class="offcanvas-subtitle">Y la próxima vez que quieras abrazar a tu perro, piensa esto</h5>
+                                No es ningún secreto: sabemos que a muchos perros les estresa y les crea ansiedad quedarse solos en casa. Mientras que otros perros prefieren no interactuar demasiado con los demás en el parque y que nos limitemos a tirarles la pelota.
+                                Pero, ¿hay algo que hagamos mucho los humanos que estrese a nuestros perros, aunque lo hagamos con la mejor intención? Rueda lo tiene claro: abrazarlos. Y explica por qué: “Igual que le sucede a la inmensa mayoría de los animales, los perros necesitan que respetemos su espacio”
+                                Pero las personas solemos abrazarlos como si fueran nuestras parejas o nuestro hijo, “algo que, sencillamente, la inmensa mayoría de los perros no llevan bien”, incide la etóloga canina.
+                                <span class="offcanvas-highlight">En otros ladridos:</span> tu perro necesita su propio espacio; y prefiere que te acerques o que interacciones con él de una manera menos intensa, más tranquila. De hecho, hay ciencia detrás de esta incomodidad: tu perro (evolutivamente) está diseñado para correr o alejarse de un peligro; al menos, esta es su primera estrategia de defensa, explica Stanley Coren, profesor emérito de la Universidad de Columbia, y experto en comportamiento perruno.
+                                Y, cuando abrazamos a un perro, por muy buena que sea nuestra intención, lo que hacemos es (literalmente) inmovilizar a nuestro amigo; impedir esa estrategia de huida innata. Lo que, según Coren, incrementa sus niveles de estrés. Hay un problema adicional en esos abrazos: “El hecho de acercar nuestra cara tanto a la de nuestro perro también puede ser problemático”, añade la etóloga canina.
+                                Es cierto: hay perros que lo toleran, pero el hecho de que tu amigo se quede quieto mientras que lo abrazas, insiste Rueda, no significa (ni mucho menos) que le esté gustando. Más bien, todo lo contrario.  
+                                <span class="offcanvas-highlight">Ya sabes:</span> la próxima vez que quieras abrazar a tu perro, ten en cuenta esto: puedes estar haciendo infeliz a tu amigo. El consejo: reserva esos abrazos para los miembros humanos de tu familia, amigos y amantes. Ya que, lo más probable es que tu amigo perruno prefiera que le demuestres tu amor con una caricia en las orejas, una palabra cariñosa, un premio, un buen paseo o tirándole la pelota por enésima vez.
+                                <div class="dropdown mt-3"></div>
+                                </div>
+                        </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
         </a>
@@ -105,7 +183,7 @@
     <section id="information-2" class="information-2">
         <h2 class="information-title"> ENTREVISTAS </h2>
     <!-- entrevista 1 -->
-        <a href="">
+        <!-- <a href=""> -->
             <article class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="../img/interview-1.png" alt="foto de Evelyn Segura">
@@ -114,13 +192,32 @@
                     <h2 class="nutrition-deck">EVELYN SEGURA</h2>
                     <h3 class="nutrition-headline">Bióloga, comunicadora científica y autora de -Adaptarse o morir-</h3>
                     <p class="nutrition-lead">Las características de los animales dependen, en gran parte, de su adecuación al medio. La bióloga Evelyn Segura, nos explica algunas curiosidades acerca del mundo animal, donde solo hay dos opciones, adaptarse o morir.</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample3" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample3" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Evelyn Segura</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                                <div class="offcanvas-body">
+                                <h5 class="offcanvas-subtitle">Todos tenemos una estrategia de supervivencia innata, pero ¿crees que los humanos somos capaces de adaptarnos o nos hemos olvidado de sobrevivir?</h5>
+                                No nos hemos olvidado de sobrevivir, lo que pasa es que no nos hemos adaptado bien al entorno, sino que modificamos ese entorno en función de nuestras necesidades o nuestros caprichos. Cambiamos todo aquello que nos rodea para tener una supervivencia más cómoda. Yo creo que hemos llegado a un punto de comodidad más que una supervivencia animal.
+                                <h5 class="offcanvas-subtitle">Pero todavía queda algo de esa supervivencia animal en nosotros, que no es más que la de perpetuar la existencia de la especie mediante los hijos. Y para ello necesitamos contar con una pareja que buscamos en función de su ADN, como explicas en el libro ¿cómo podemos hacerlo sin apenas darnos cuenta?</h5>
+                                Esto es un tema de interés para el mundo científico y existen varios estudios sobre ello. Hay investigaciones que dicen que somos capaces de reconocer a las personas que tienen un ADN más compatible con el nuestro a través del olfato. Se supone, que en función de nuestro código genético desprendemos un olor determinado y que puede ser atractivo para aquellas personas con las que somos más complementarios. Nosotros tenemos unas defensas y un código genético que lo que acaba haciendo es configurar un sistema inmunológico determinado, unas herramientas de defensa del organismo que lo que hace es detectar todo lo que es ajeno a nuestro cuerpo. Lo que el ser humano hace es seleccionar a la persona que es más bien su polo opuesto, de esta manera, se ofrece a la descendencia una mayor amplitud o variedad de herramientas de defensa, que se traduce en una mejor salud.
+                                En el tema físico, aunque tengamos un poco de pudor de reconocer que el físico es importante, en realidad sí que lo es. Somos animales visuales, vemos el entorno a través de la información que nos llega por el sentido de la vista y al seleccionar a una pareja, además del olor, evidentemente también influye el físico. Un ejemplo de ello es que nos fijamos en las proporciones faciales, el rostro juega un papel muy importante, aunque unos se fijan más que otros. Parece ser que lo que más nos interesa de la otra persona es la simetría facial, porque eso demuestra que su organismo está sano, por lo que son una pareja potencial digna de ser seleccionada.
+                                <div class="dropdown mt-3"></div>
+                            </div>
+                        </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
-        </a>
+        <!-- </a> -->
     <!-- fin entrevista 1 -->
     <!-- entrevista 2 -->
-        <a href="">
+        <!-- <a href=""> -->
             <article class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="../img/interview-2.png" alt="foto de Ingrid Ramón">
@@ -129,13 +226,35 @@
                     <h2 class="nutrition-deck">INGRID RAMÓN</h2>
                     <h3 class="nutrition-headline">Educadora canina y autora de -Entiende y educa a tu perro-</h3>
                     <p class="nutrition-lead">La educadora canina Ingrid Ramón nos da las claves para aprender a comunicarnos con nuestro perro, con el respeto y la ausencia de castigos como pilares para educar en positivo a nuestro fiel compañero.</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample4" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample4" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ingrid Ramón</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                                <div class="offcanvas-body">
+                                <h5 class="offcanvas-subtitle">Pregunta obligada, Ingrid. ¿En qué consiste el adiestramiento canino en positivo?</h5>
+                                El adiestramiento positivo consiste en enseñar al perro y, en vez de castigarle por lo que hace mal, lo que hacemos es premiarle todo lo que hace bien. Gracias a esos premios, a esos reforzadores, que en este caso serían mimos, juegos o caricias, lo que hacemos es inducirle los comportamientos que queremos.
+                                <h5 class="offcanvas-subtitle">¿Qué ventajas encuentras con respecto a la corriente de adiestramiento clásica?</h5>
+                                Bueno, sobre todo la parte ética y moral. Eso es lo más importante, ya que toda la corriente denominada clásica se basa en el castigo, en el daño físico o en asustar al perro para que adquiera un comportamiento. Ya solo evitando esto salimos ganando, ya que con el adiestramiento positivo ni coartamos al perro ni le obligamos a hacer nada de este tipo de forma. Además, el adiestramiento positivo lo que consigue es una buena relación estable con el perro, de cooperación en vez de miedo. El perro opta por hacer los comportamientos que le pedimos porque le reporta algo positivo, por lo tanto, lo hará más a menudo, de forma más rápida, con más asiduidad y, sobre todo, sin ningún tipo de estrés. Básicamente es un cambio de relación, pasar de tener una basada en el miedo a tener otra basada en la cooperación y el vínculo entre propietario y perro.
+                                <h5 class="offcanvas-subtitle">Esto me recuerda mucho a la crianza respetuosa de los niños.</h5>
+                                Exactamente. Es así. Además, lo que conseguimos con esta forma de adiestramiento es un perro más inteligente, más equilibrado, más sociable y con menos problemas de conducta, y no un robot con miedo, que es lo que les ocurre a los perros entrenados desde el adiestramiento clásico. Un perro al que le chillas y le pegas normalmente tendrá problemas de agresividad o de estrés, con lo cual su sistema inmunológico estará mucho más dañado y por tanto será un perro con una menor calidad de vida.
+                                <h5 class="offcanvas-subtitle">¿Algún -pero- hasta el momento en base a tu experiencia profesional?</h5>
+                                Si se hace bien, no. El problema está cuando no se utiliza bien por falta de conocimientos. Ese es el único -pero- que yo le puedo encontrar: no el sistema en sí sino cómo se utiliza a veces. Mucha gente no sabe emplearlo, piensa que, por ejemplo, el ofrecimiento de premios es hasta el in eternum y no se trata de eso.
+                                <div class="dropdown mt-3"></div>
+                            </div>
+                        </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
-        </a>
+        <!-- </a> -->
     <!-- fin entrevista 2 -->
     <!-- entrevista 3 -->
-        <a href="">
+        <!-- <a href=""> -->
             <article class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="../img/interview-3.png" alt="foto de Silvia Villaverde">
@@ -144,18 +263,42 @@
                     <h3 class="nutrition-deck">SILVIA VILLAVERDE</h3>    
                     <h2 class="nutrition-headline">Directora de la Fundación para la Investigación en Etología y Biodiversidad (FIEB)</h2>
                     <p class="nutrition-lead">Silvia Villaverde, directora del centro CITES, un lugar donde los animales protegidos son atendidos y rehabilitados, y en el que se gestionan los papeles especiales que necesitan, nos habla de su labor.</p>
-                    <img class="arrow" src="../img/arrow.png" alt="ícono de flecha">
+                    <!-- <img class="arrow" src="../img/arrow.png" alt="ícono de flecha"> -->
+                    <!-- toggle static offcanvas -->
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample5" role="button" aria-controls="offcanvasExample">
+                        Ver más
+                    </a> 
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample5" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Silvina Villaverde</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                                <div class="offcanvas-body">
+                                <h5 class="offcanvas-subtitle">El Centro de investigación y cuidado de animales ubicado en Casarrubios del Monte (Toledo) es pionero en España en el cuidado de especies víctimas del tráfico ilegal y fue creado en 2013. ¿Cómo era el procedimiento anterior a que este centro existiese?</h5>
+                                Anteriormente a la creación del centro FIEB las autoridades administrativas de CITES contaban con un centro específico para primates y varios colaboradores para alojar el resto de especies.
+                                <h5 class="offcanvas-subtitle">¿Dónde acababan estos animales después de ser rescatados?</h5>
+                                Los centros colaboradores son centros con infraestructuras adecuadas para cada especie en concreto y con personal que pueda hacer frente a sus cuidados. El problema es que estos centros no siempre tienen el espacio necesario para dichos animales.
+                                <h5 class="offcanvas-subtitle">Cada día se comercia más con animales protegidos como primates, serpientes o tortugas. Cuando un animal que llega al centro es curado ¿Qué pasa con él? </h5>
+                                Los animales a los que acogemos se mantienen en el centro mientras dura el procedimiento judicial asociado al delito por el cual han sido decomisados. Durante su estancia se les da todas las atenciones que necesiten incluyendo la atención veterinaria especializada. Una vez resuelto el caso por el juez, dependerá de esa decisión judicial el destino final del animal. En cualquier caso los esfuerzos van dirigidos a que se incorporen en proyectos asociados con la conservación y la educación medioambiental.
+                                <h5 class="offcanvas-subtitle">El centro está dotado de los mejores expertos en estos animales protegidos y cuentan con espacios que simulan su hábitat natural ¿Podéis acoger animales de todos los continentes?</h5>
+                                En el centro tenemos animales de todos los continentes por lo que tenemos instalaciones muy versátiles para poder adaptarlas a cada necesidad. Intentamos que esté lo más acondicionadas posibles y naturalizadas.
+                                <h5 class="offcanvas-subtitle">¿Cómo podemos saber si el animal que vamos a comprar tiene “papeles” o ha sido víctima del comercio ilegal?</h5>
+                                Lo mejor es informarse correctamente y consultar la legislación, en el portal oficial de CITES www.cites.es se puede encontrar toda la información referente al convenio y sus anexos, que son los listados de las especies con su nivel de protección. Es una lectura obligatoria para todo aquel que esté pensando en adquirir una especie exótica. En caso de ser animales criados en cautividad, los criadores deben tener un número identificador y estar registrados, esa documentación debería estar a disposición del comprador y que se la den una vez realizada la compra. La legislación y los registros de algunas especies, cómo las rapaces están sujetas a variaciones entre las Comunidades Autónomas es interesante echar un vistazo a los portales web de la Comunidad Autónoma en la que se encuentre cada uno para ver las exigencias y controles asociadas a las diferentes especies. Ante cualquier duda, es mejor contrastar la información con varias personas que trabajen en el ámbito, veterinarios especialistas, autoridades medioambientales etcétera para estar seguros. 
+                                <div class="dropdown mt-3"></div>
+                            </div>
+                        </div>
+                    <!-- fin toggle static offcanvas -->
                 </div>
             </article>
-        </a>
+        <!-- </a> -->
     </section>
     <!-- fin entrevista 3 -->
     <!-- FIN NOTAS Y ENTREVISTAS-->
-        <div class="see-more">
+        <!-- <div class="see-more">
             <a href=""> 
                 <p class="see-more-text" >Ver más</p>
             </a>
-        </div>
+        </div> -->
     </section>
     <footer> 
         <picture>
@@ -175,5 +318,6 @@
         <p>"Trata a los animales como te gustaría ser tratado"</p>
         <img class="logo" src="../img/logo.png" >
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

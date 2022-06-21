@@ -13,7 +13,7 @@
         <nav>
             <section class="index-header">
                 <!-- dropdown -->
-                <article class="dropdown-button">
+                <!-- <article class="dropdown-button">
                     <img class="dropdown-icon" src="./img/hamburguer-icon.png" alt="ícono de menú hamburguesa">
                     <div class="dropdown-nav"> 
                         <ul class="dropdown-content">
@@ -34,7 +34,7 @@
                             </li>
                         </ul>
                     </div>
-                </article>
+                </article> -->
                 <!-- fin dropdown -->
                 <div class="index-header-main">
                     <p class="name-pyme">Fauno</p>
@@ -44,7 +44,7 @@
                     <p class="name-pyme-2">Fauno</p>
                 </div>
             </section>
-            <div class="index-nav">
+            <!-- <div class="index-nav">
                     <ul class="nav">
                         <li class="nav-inicio">
                             <a href="./index.html">Inicio</a>
@@ -63,12 +63,59 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
+            <!-- navbar bootstrap -->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/articulos.html">Artículos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/tienda.html">Tienda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                      <!-- <li class="nav-item"> -->
+                        <!-- <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a> -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <!-- fin navbar bootstrap -->
         </nav>
     </header>
     <!-- notas y entrevistas -->
     <section class="information">
-        <a href="">
+        <a href="./pages/articulos.html#nutrition-deck">
             <article class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="./img/dog-eating.png" alt="foto de perro comiendo">
@@ -81,7 +128,7 @@
                 </div>
             </article>
         </a>
-        <a href="">
+        <a href="./pages/articulos.html#nutrition-deck2">
             <article class="nutrition">
                 <picture>
                     <img class="dogs-eating" src="./img/cats-eating.png" alt="foto de dos gatos siendo alimentados">
