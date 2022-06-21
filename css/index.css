@@ -491,6 +491,66 @@ header {
     font-weight: 400;
 }
 
+.offcanvas.offcanvas-start {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 600px;
+}
+
+.offcanvas.offcanvas-start .offcanvas-highlight {
+    font-weight: 600;
+}
+
+.offcanvas.offcanvas-start .offcanvas-subtitle {
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+    margin-top: 2rem;
+    --bs-btn-bg: none;
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-bg: none;
+    --bs-btn-disabled-bg: none;
+    color: black;
+    --bs-btn-hover-color: black;
+    --bs-btn-active-color: black;
+    --bs-btn-disabled-color: black;
+
+}
+
+.btn-primary:hover {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+}
+
+.btn-primary:active {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+}
+
+.btn-primary:visited {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+}
+
+.btn-primary:link {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+}
+
+.btn {
+    transition: none;
+    --bs-btn-focus-box-shadow: none;
+    --bs-btn-disabled-opacity: none;
+
+}
+
+.offcanvas-img-1 {
+    margin-top: 2rem;
+}
+
 /* FIN NOTAS Y ENTREVISTAS */
 
 /* TIENDA */
