@@ -132,6 +132,86 @@ img {
     background-color: rgba(15, 247, 138, 0.322);
 }
 
+.dropdown-nav{
+    display: none;
+    position: absolute;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    min-width: 160px;
+    padding: 12px 16px;
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 1;
+}
+
+.dropdown-button:hover .dropdown-nav {
+    display: block;
+  }
+
+.dropdown-nav .dropdown-inicio {
+    display: list-item;
+    padding: 2rem;
+    justify-items: stretch;
+}
+
+.dropdown-nav .dropdown-inicio{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-nav .dropdown-inicio:hover{
+    background-color: rgba(15, 247, 138, 0.322);
+}
+
+.dropdown-nav .dropdown-content {
+    display: list-item;
+    padding: 2rem;
+    justify-items: stretch;
+}
+
+.dropdown-nav .dropdown-articulos{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-nav .dropdown-articulos:hover{
+    background-color: rgba(15, 247, 138, 0.322);
+}
+
+.dropdown-nav .dropdown-tienda{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-nav .dropdown-tienda:hover{
+    background-color: rgba(15, 247, 138, 0.322);
+}
+
+.dropdown-nav .dropdown-servicios{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-nav .dropdown-servicios:hover{
+    background-color: rgba(15, 247, 138, 0.322);
+}
+
+.dropdown-nav .dropdown-contacto{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-nav .dropdown-contacto:hover{
+    background-color: rgba(15, 247, 138, 0.322);
+}
+
 /* fin dropdown */
 
 /* header */
@@ -200,6 +280,23 @@ header {
 
 .index-nav a:hover {
     border-bottom: 1px black solid;
+}
+
+.index-nav a:hover {
+    border-bottom: 1px black solid;
+}
+
+.bg-light {
+    --bs-bg-opacity: o;
+    background-color: none !important;
+}
+
+.container-fluid {
+    margin-left: 4%;
+}
+
+.navbar {
+    --bs-navbar-nav-link-padding-x: 1.5rem;
 }
 
 /* fin nav */
