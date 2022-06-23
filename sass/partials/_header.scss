@@ -1,0 +1,159 @@
+/* header-dropdown-menú */
+
+header {
+    padding: 1rem;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 5%;
+        margin-right: 10%;
+        position: relative;
+
+        .index-nav a:hover {
+            border-bottom: 1px black solid;
+        }
+
+        .dropdown-button {
+            position: relative;
+            margin-left: 4rem;
+            display: inline-block;
+            color: white;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            cursor: pointer;
+
+            &:hover .dropdown-nav {
+                display: block;
+            }
+
+            .dropdown-icon {
+                max-width: 2rem;
+                position: relative;
+            }
+
+            .dropdown-nav{
+                display: none;
+                position: absolute;
+                background: rgba( 255, 255, 255, 0.25 );
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                min-width: 160px;
+                padding: 12px 16px;
+                backdrop-filter: blur( 10.5px );
+                -webkit-backdrop-filter: blur( 1.5px );
+                border-radius: 10px;
+                border: 1px solid rgba( 255, 255, 255, 0.18 );
+                z-index: 1;
+            }
+
+                .dropdown-content {
+                    display: list-item;
+                    padding: 2rem;
+                    justify-items: stretch;
+                }
+
+                    .dropdown-inicio {
+                        display: list-item;
+                        padding: 2rem;
+                        justify-items: stretch;
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+
+                    .dropdown-articulos{
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+
+                    .dropdown-tienda{
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+
+                    .dropdown-servicios{
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+
+                    .dropdown-contacto{
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+
+                    .dropdown-tienda{
+                        margin-bottom: 1rem;
+                        padding: 0.3rem;
+                        border-radius: 0.5rem;
+                    }
+
+                        &:hover{
+                            background-color: rgba(15, 247, 138, 0.322);
+                        }
+        }
+
+        .index-header-main {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 5rem 2rem 5rem;
+
+            .name-pyme {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 200%;
+                letter-spacing: 0.5rem;
+                padding-top: 1rem;
+                border-top: solid 1px black;
+                animation-name: color;
+                animation-duration: 8s;
+                animation-iteration-count: 1;
+            }
+
+            .name-pyme-2 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 200%;
+                padding-top: 10rem;
+                letter-spacing: 0.5rem;
+                border-bottom: solid 1px black;
+                animation-name: color;
+                animation-duration: 8s;
+                animation-iteration-count: 1;
+            }
+
+            .logo {
+                animation-name: color;
+                animation-duration: 8s;
+                animation-iteration-count: 1;
+            }
+        }
+
+    }
+}
