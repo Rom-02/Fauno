@@ -500,7 +500,6 @@ header {
     --bs-btn-hover-color: black;
     --bs-btn-active-color: black;
     --bs-btn-disabled-color: black;
-
 }
 
 .btn-primary:hover {
@@ -527,7 +526,6 @@ header {
     transition: none;
     --bs-btn-focus-box-shadow: none;
     --bs-btn-disabled-opacity: none;
-
 }
 
 .offcanvas-img-1 {

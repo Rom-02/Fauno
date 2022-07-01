@@ -1,0 +1,196 @@
+.information {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: white;
+
+    .information-title {
+        padding-top: 0.7rem;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        margin-bottom: 5rem;
+        letter-spacing: 1rem;
+        font-weight: 500;
+        font-size: 150%;
+    }
+}
+
+.information-2 {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    background-color: white;
+
+    .information-title {
+        padding-top: 0.7rem;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        margin-bottom: 5rem;
+        letter-spacing: 1rem;
+        font-weight: 500;
+        font-size: 150%;
+    }
+
+    .nutrition {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 4rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+
+        .dogs-eating {
+            margin-left: 1rem;
+            min-width: 25rem;
+            max-width: 25rem;
+        }
+
+        .nutrition-text {
+            margin-left: 3%;
+            margin-right: 7%;
+
+            .btn {
+                transition: none;
+                --bs-btn-focus-box-shadow: none;
+                --bs-btn-disabled-opacity: none;
+            
+                .btn-primary {
+                    border-color:rgb(69, 1, 90);
+                    background-color: none;
+                    margin-top: 2rem;
+                    --bs-btn-bg: none;
+                    --bs-btn-hover-bg: none;
+                    --bs-btn-active-bg: none;
+                    --bs-btn-disabled-bg: none;
+                    color: black;
+                    --bs-btn-hover-color: black;
+                    --bs-btn-active-color: black;
+                    --bs-btn-disabled-color: black;
+                    
+                    &:hover {
+                        border-color:rgb(69, 1, 90);
+                        background-color: none;
+                    }
+            
+                    &:active {
+                        border-color:rgb(69, 1, 90);
+                        background-color: none;
+                    }
+            
+                    &:visited {
+                        border-color:rgb(69, 1, 90);
+                        background-color: none;
+                    }
+            
+                    &:link {
+                        border-color:rgb(69, 1, 90);
+                        background-color: none;
+                    }
+                }
+            }
+
+            .nutrition-deck {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .nutrition-headline {
+                font-size: 1.5rem;
+                margin-bottom: 1.2rem;
+                color: rgb(42, 37, 104);
+            }
+        
+            .nutrition-lead {
+                font-size: 1rem;
+               
+            }
+
+            .offcanvas.offcanvas-start {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                width: 600px;
+            
+                .offcanvas-highlight {
+                    font-weight: 600;
+                }
+            
+                .offcanvas-subtitle {
+                    margin-top: 2rem;
+                }
+            
+                .offcanvas-img-1 {
+                    margin-top: 2rem;
+                }
+            }
+            
+
+        }
+    }
+}
+
+.header-pages {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 13%;
+
+    .dropdown-button {
+        margin-left: -0.1%;
+    }
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2rem;
+
+    a:hover {
+        border-bottom: 1px black solid;
+        color: black;
+    }
+}
+
+.header-pages {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 13%;
+
+    .logo {
+        width: 5rem;
+    }
+}
+
+.nav-pages h1 {
+    margin-left: 4.7%;
+    margin-bottom: 5rem;
+    letter-spacing: 0.5rem;
+    font-size: 300%;
+}
+
+.see-more{
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+    /* padding-top: 2rem; */
+    text-align: center;
+
+    .see-more-text {
+        display: inline;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border: solid black 0.1rem;
+        text-align: justify;
+        font-weight: 400;
+    }
+}
+
+/* bootstrap override */
+
+
+
+a:hover {
+    color: black;
+}

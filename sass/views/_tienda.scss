@@ -1,0 +1,100 @@
+.cart-icon {
+    max-width: 2.5rem;
+} 
+
+.store {
+    background-color: white;
+
+    .discount {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkgreen;
+        max-height: 10rem;
+
+        img {
+            max-width: 20rem;
+        }
+
+        .discount-text {
+            margin-left: 3rem;
+            color: white;
+
+            .title-p {
+                font-size: 200%;
+            }
+        }
+    }
+
+    .products-title {
+        padding-top: 7rem;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        margin-bottom: 5rem;
+        letter-spacing: 1rem;
+        font-weight: 500;
+    }
+
+    .products-store {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 6rem;
+        padding-bottom: 6rem;
+
+        .products-img-store {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .box-store {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                flex: 1 1 clamp(95px, 30%, 150px);
+            }
+
+            .dog-bed-text {
+                display: flex;
+                flex-direction: column;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-align: center;
+
+                .dog-bed-title {
+                    margin-bottom: 1rem;
+                }
+
+                .dog-bed-price {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    color: rgba(32, 117, 37, 0.667);
+                }
+
+                .dog-bed-cart {
+                    display: inline;
+                    font-weight: 600;
+                    font-size: 125%;
+                }
+
+            }
+        }
+    }
+}
+
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2rem;
+
+    a:hover {
+        border-bottom: 1px black solid;
+    }
+
+}

@@ -1,0 +1,87 @@
+.nav-form {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-right: 3%;
+    background-color: white;
+
+    .nav-emails {
+        padding-top: 2rem;
+        padding-left: 3%;
+
+        .nav-advice {
+            margin-bottom: 2rem;
+
+            h2 {
+                font-weight: 500;
+            }
+        }
+        .nav-adoption {
+            margin-bottom: 2rem;
+
+            h2 {
+                font-weight: 500;
+            }
+        }
+
+        .nav-store {
+            margin-bottom: 2rem;
+
+            h2 {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .form {
+        padding-left: 3%;
+        padding-top: 2rem;
+        padding-right: 3%;
+        background-color: white;
+
+        .form-title {
+            margin-bottom: 2rem;
+        }
+
+        .form-name {
+            border: none;
+            border-bottom: 0.1rem solid black;
+            margin-bottom: 1rem;
+            width: 24rem;
+            padding-bottom: 1rem;
+            outline: none;
+        }
+
+        .form-email {
+            border: none;
+            border-bottom: 0.1rem solid black;
+            margin-bottom: 3rem;
+            width: 24rem;
+            padding-bottom: 1rem;
+            outline: none;
+        }
+
+        .form-text {
+            width: 23rem;
+            height: 14rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            outline: none;
+        }
+
+        .button-submit {
+            background-color: rgb(69, 1, 90);
+            color: white;
+            border: none;
+            padding-top: 0.7rem;
+            padding-bottom: 0.7rem;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+    }
+}
