@@ -12,21 +12,34 @@ footer {
         margin-right: auto;
         justify-content: space-evenly;
 
-        .logo-facebook {
-            max-width: 1.7rem;
-        }
+            $redes: (
+                logo-facebook: "logo-facebook",
+                logo-instagram: "logo-instagram",
+                logo-twitch: "logo-twitch",
+                logo-twitter: "logo-twitter"
+            );
 
-        .logo-instagram {
-            max-width: 1.7rem;
-        }
+            @each $key, $val in $redes {
+                .#{$key} {
+                max-width: 1.7rem
+                }
+            }        
+            /* .logo-facebook {
+                max-width: 1.7rem;
+            }
 
-        .logo-twitch {
-            max-width: 1.7rem;
-        }
+            .logo-instagram {
+                max-width: 1.7rem;
+            }
 
-        .logo-twitter {
-            max-width: 1.7rem;
-        }
+            .logo-twitch {
+                max-width: 1.7rem;
+            }
+        
+            .logo-twitter {
+                max-width: 1.7rem;
+            } */
+
     }
 
     .logo {
@@ -41,5 +54,5 @@ footer {
         text-align: center;
         margin-top: 1.7rem;
         font-size: 100%;
-    }
+    }    
 }

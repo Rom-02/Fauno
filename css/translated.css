@@ -128,7 +128,22 @@ footer {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    /* .logo-facebook {
+                max-width: 1.7rem;
+            }
+
+            .logo-instagram {
+                max-width: 1.7rem;
+            }
+
+            .logo-twitch {
+                max-width: 1.7rem;
+            }
+        
+            .logo-twitter {
+                max-width: 1.7rem;
+            } */ }
     footer picture .logo-facebook {
       max-width: 1.7rem; }
     footer picture .logo-instagram {
