@@ -1,141 +1,150 @@
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .index-nav {
-        display: block;
+        display: block !important;
     }
 
     /* gallery */
 
     .gallery .gallery-img:nth-of-type(2) {
-        grid-column: 7 / 13;
-        max-height: 123px;
-        overflow: hidden;
+        grid-column: 7 / 13 !important;
+        max-height: 123px !important;
+        overflow: hidden !important;
     } 
 
     /* fin gallery */
 
     .products-img {
-        display: block;
+        display: block !important;
+    }
+
+    .form-servicios {
+        .form-text {
+            width: 60% !important;
+        }
     }
 }
 
-@media only screen and (max-width: 348px) {
+@media (max-width: 348px) {
     .information .information-title {
-        font-size: 130%;
+        font-size: 130% !important;
     }
 
     .information-2 .information-title {
-        font-size: 130%;
+        font-size: 130% !important;
+    }
+
+    .background-asesoramiento h2 {
+        font-size: 12px !important;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .discount-text {
-        margin-right: 2rem;
+        margin-right: 2rem !important;
     }
 
     .nav-pages h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
 
     .form-name {
-        width: 16rem;
+        width: 16rem !important;
     }
     
     .form-email {
-        width: 16rem;
+        width: 16rem !important;
     }
     
     .form-text {
-        width: 14rem;
-        height: 14rem;
-        padding: 1rem;
+        width: 14rem !important;
+        height: 14rem !important;
+        padding: 1rem !important;
     }
 
+    .background-asesoramiento h2 {
+        font-size: 100%;
+    }
 }
 
-@media only screen and (max-width: 660px) {
+@media (max-width: 660px) {
 
     /* index */
 
     .index-header-main {
-        display: block;
+        display: block !important;
     }
 
     .name-pyme {
-        text-align: center;
+        text-align: center !important;
     }
 
     .name-pyme-2 {
-        padding-top: 0rem;
-        text-align: center;
-        padding-bottom: 1rem;
+        padding-top: 0rem !important;
+        text-align: center !important;
+        padding-bottom: 1rem !important;
     }
 
     .index-header {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .dropdown-button {
-        align-self: flex-start;
+        align-self: flex-start !important;
     }
 
     .index-header-main .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 50%;
-    }
-
-    .nav {
-        display: none;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 50% !important;
     }
 
     .nutrition .dogs-eating {
-        min-width: 15%;
-        max-width: 75%;
+        min-width: 15% !important;
+        max-width: 75% !important;
     }
-
+    
     /* fin index */
 
     /* gallery */
 
     .gallery {
-        grid-template-rows: repeat(4, auto);
-        gap: 0.25rem;
+        grid-template-rows: repeat(4, auto) !important;
+        gap: 0.25rem !important;
     }
 
     .gallery .gallery-img:nth-of-type(1) {
-        grid-column: 1 / 7;
+        grid-column: 1 / 7 !important;
     }
     
     .gallery .gallery-img:nth-of-type(2) {
-        grid-column: 7 / 13;
-        max-height: 255.36px;
-        overflow: hidden;
+        grid-column: 7 / 13 !important;
+        max-height: 255.36px !important;
+        overflow: hidden !important;
     } 
 
     
     .gallery .gallery-img:nth-of-type(3) {
-        grid-column: 1 / 13;
-        grid-row: 2;
-        max-height: 450px;
-        overflow: hidden;
+        grid-column: 1 / 13 !important;
+        grid-row: 2 !important;
+        max-height: 450px !important;
+        overflow: hidden !important;
     }
     
     .gallery .gallery-img:nth-of-type(4) {
-        grid-column: 1 / 13;
-        grid-row: 3;
+        grid-column: 1 / 13 !important;
+        grid-row: 3 !important;
     }
     
     .gallery .gallery-img:nth-of-type(5) {
-        grid-column: 1  / 7;
-        grid-row: 4;
+        grid-column: 1  / 7 !important;
+        grid-row: 4 !important;
     }
     
     .gallery .gallery-img:nth-of-type(6) {
-        grid-column: 7 / 13;
-        grid-row: 4;
+        grid-column: 7 / 13 !important;
+        grid-row: 4 !important;
     }
 
     /* fin gallery */
@@ -143,25 +152,34 @@
     /* tienda */
 
     .discount-img {
-        display: none;
+        display: none !important;
     }
 
     /* fin tienda */
-
 }
 
-@media only screen and (max-width: 924px) {
+@media (max-width: 924px) {
     .information .nutrition {
-        display: block;
+        display: block !important;
     }
 
     .information-2 .nutrition {
-        display: block;
+        display: block !important;
     }
 
     .nav-form {
-        display: block;
-        padding-left: 5%;
+        display: block !important;
+        padding-left: 5% !important;
+    }
+
+    .index-nav {
+        display: none !important;
+    }
+}
+
+@media (min-width: 925px) {
+    .index-header .dropdown-button .dropdown-icon {
+        display: none !important;
     }
 }
 
@@ -170,6 +188,3 @@
     100% {opacity: 100%;}
 }
 
-.img .dropdown-button {
-    display: none;
-}

@@ -2,12 +2,8 @@
     background-color: white;
 
     h2 {
-        padding-top: 5rem;
+        @include h2;
         margin-top: 0.5rem;
-        margin-left: 5%;
-        margin-bottom: 5rem;
-        letter-spacing: 1rem;
-        font-weight: 500;
     }
 
     .container {
@@ -72,6 +68,64 @@
                     background-position: center;
                 }
             }
+        }
+    }
+}
+
+.background-asesoramiento {
+    background-color: white;
+    padding-bottom: 5rem;
+    
+    h2 {
+        @include h2;
+        font-size: 150%;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-bottom: 2rem;
+    }
+
+    div {
+        margin-left: 5%;
+
+        .form-name {
+            @include form-name;
+        }
+
+        .date {
+            margin-top: 1rem;
+            margin-left: -0.1%;
+        }
+
+        .form-age {
+            margin-bottom: 2rem;
+            height: 47px;
+            width: 155px;
+            font-size: 110%;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 0.5rem;
+            border: 1px solid black;
+        }
+
+        .form-text {
+            width: 60%;
+            height: 7rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            outline: none;
+        }
+
+        p {
+            margin-left: -0.1%;
+        }
+
+        .symptoms {
+            margin-top: 1.5rem;
+        }
+
+        .button-submit {
+          @include button-submit;
         }
     }
 }

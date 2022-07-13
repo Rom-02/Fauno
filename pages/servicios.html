@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="perro, refugio animal, animales domésticos, veterinaria, asesoramiento, donación">
+    <meta name="keywords" description="Refugios de animales en donde podés hacer una donación o si necesitás un asesoramiento personalizado sobre tu mascota">
     <title>Fauno | Servicios</title>
-    <!-- <link rel="stylesheet" href="../css/index.css"> -->
     <link rel="stylesheet" href="../css/translated.css">
 </head>
 <body>
@@ -44,16 +45,16 @@
         <section>
             <ul class="nav-items">
                 <li>
-                    <a href="">Refugios</a>
+                    <a href="#background-services">Refugios</a>
                 </li>
                 <li>
-                    <a href="">Asesoramiento</a>
+                    <a href="#background-asesoramiento">Asesoramiento</a>
                 </li>
             </ul>
         </section>
     </article>
     <!-- fin menú -->
-    <article class="background-services">
+    <article class="background-services" id="background-services">
         <section>
             <h2> REFUGIOS </h2>
         </section>
@@ -95,6 +96,31 @@
     </article>
     </main>
     <!-- fin gallery -->
+<div class="background-asesoramiento" id="background-asesoramiento">
+    <section>
+        <h2> ASESORAMIENTO </h2>
+        <p> Rellena el siguiente formulario para que podamos brindarte la ayuda que necesitás</p>
+    </section>
+    <!-- formulario -->
+    <div class="form-servicios">
+        <form action="" method="post" enctype="">
+            <input class="form-name" type="text" name="nombre" placeholder="Raza de la mascota">
+            <br> 
+            <p class="date">Fecha de nacimiento (si no la sabés, indicalo en la descripión).</p>
+            <input class="form-age" type="date" name="age" placeholder="Edad">
+            <br>
+            <p>¿Tiene alguna enfermedad preexistente?</p>
+            <textarea class="form-text" name="" id="" cols="30" rows="5"> </textarea> 
+            <br>
+            <p class="symptoms">Por último, describí sus síntomas actuales</p>
+            <textarea class="form-text" name="" id="" cols="30" rows="5"> </textarea> 
+            <br>
+            <input class="button-submit" type="submit" value="Enviar"> 
+            <!-- <input type="reset" value="Borrar formulario">  -->
+        </form>
+    </div>
+</div>
+    <!-- fin formulario -->
     <footer> 
         <picture>
             <a href="">  

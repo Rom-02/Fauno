@@ -103,3 +103,24 @@
     animation-iteration-count: 1;
 }
 
+@mixin button-submit {
+    background-color: rgb(69, 1, 90);
+    color: white;
+    border: none;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 105%;
+}
+
+@mixin h2 {
+    padding-top: 5rem;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+}
