@@ -1,3 +1,8 @@
+ /* MISC */
+@import "./misc/normalize";
+@import "./misc/mixins";
+@import "./misc/variables";
+
  /* PARTIALS */
  @import "./partials/header";
  @import "./partials/footer";
@@ -9,7 +14,8 @@
  @import "./views/servicios";
  @import "./views/contacto";
 
- /* MISC */
- @import "./misc/normalize";
- @import "./misc/mixins";
- @import "./misc/media";
+
+ @import "./misc/mediaqueries";
+
+ 
+

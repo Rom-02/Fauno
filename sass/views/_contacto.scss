@@ -1,3 +1,5 @@
+@import "../misc/mediaqueries";
+
 .nav-form {
     display: flex;
     justify-content: space-evenly;
@@ -7,59 +9,48 @@
     background-color: white;
 
     .nav-emails {
-        padding-top: 2rem;
-        padding-left: 3%;
+        @include nav-emails;
 
         .nav-advice {
-            margin-bottom: 2rem;
+            margin-bottom: map-get($nav-emails, margin-bottom);
 
             h2 {
-                font-weight: 500;
+                font-weight: map-get($nav-emails, font-weight);
             }
         }
         .nav-adoption {
-            margin-bottom: 2rem;
+            margin-bottom: map-get($nav-emails, font-weight);
 
             h2 {
-                font-weight: 500;
+                font-weight: map-get($nav-emails, font-weight);
             }
         }
 
         .nav-store {
-            margin-bottom: 2rem;
+            margin-bottom: map-get($nav-emails, margin-bottom);
 
             h2 {
-                font-weight: 500;
+                font-weight: map-get($nav-emails, font-weight);
             }
         }
     }
 
     .form {
-        padding-left: 3%;
-        padding-top: 2rem;
+        @include nav-emails;
         padding-right: 3%;
         background-color: white;
 
         .form-title {
-            margin-bottom: 2rem;
+            margin-bottom: map-get($nav-emails, margin-bottom);
         }
 
         .form-name {
-            border: none;
-            border-bottom: 0.1rem solid black;
-            margin-bottom: 1rem;
-            width: 24rem;
-            padding-bottom: 1rem;
-            outline: none;
+            @include form-name;
         }
 
         .form-email {
-            border: none;
-            border-bottom: 0.1rem solid black;
+            @include form-name;
             margin-bottom: 3rem;
-            width: 24rem;
-            padding-bottom: 1rem;
-            outline: none;
         }
 
         .form-text {

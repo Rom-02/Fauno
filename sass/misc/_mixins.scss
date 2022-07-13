@@ -1,0 +1,105 @@
+@mixin information {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: white
+}
+
+@mixin information-title {
+    padding-top: 0.7rem;
+    margin-top: 0.5rem;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+@mixin nutrition {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+@mixin dogs-eating {
+    margin-left: 1rem;
+    min-width: 25rem;
+    max-width: 25rem;
+}
+
+@mixin nutrition-text {
+    margin-left: 3%;
+    margin-right: 7%;
+}
+
+@mixin nutrition-deck {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+} 
+
+@mixin nutrition-headline {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: rgb(42, 37, 104);
+} 
+
+@mixin btn-primary-hover {
+    border-color:rgb(69, 1, 90);
+    background-color: none;
+}
+
+@mixin header-pages {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 13%; 
+}
+
+@mixin nav-emails {
+    padding-top: 2rem;
+    padding-left: 3%;
+}
+
+@mixin form-name {
+    border: none;
+    border-bottom: 0.1rem solid black;
+    margin-bottom: 1rem;
+    width: 24rem;
+    padding-bottom: 1rem;
+    outline: none;
+}
+
+@mixin dropdown-content {
+    display: list-item;
+    padding: 2rem;
+    justify-items: stretch;
+}
+
+@mixin dropdown-inicio {
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+@mixin hover {
+    background-color: rgba(15, 247, 138, 0.322);
+    color: black;
+}
+
+@mixin name-pyme {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    letter-spacing: 0.5rem;
+    padding-top: 1rem;
+}
+
+@mixin logo {
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+}
+

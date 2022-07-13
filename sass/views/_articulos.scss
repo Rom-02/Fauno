@@ -1,52 +1,19 @@
 .information {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: white;
+    @include information;
 
     .information-title {
-        padding-top: 0.7rem;
-        margin-top: 0.5rem;
-        margin-left: 5%;
-        margin-bottom: 5rem;
-        letter-spacing: 1rem;
-        font-weight: 500;
-        font-size: 150%;
-    }
-}
-
-.information-2 {
-    padding-top: 1rem;
-    padding-bottom: 6rem;
-    background-color: white;
-
-    .information-title {
-        padding-top: 0.7rem;
-        margin-top: 0.5rem;
-        margin-left: 5%;
-        margin-bottom: 5rem;
-        letter-spacing: 1rem;
-        font-weight: 500;
-        font-size: 150%;
+        @include information-title;
     }
 
     .nutrition {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 4rem;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        display: flex;
-        align-items: center;
+        @include nutrition;
 
         .dogs-eating {
-            margin-left: 1rem;
-            min-width: 25rem;
-            max-width: 25rem;
+            @include dogs-eating;
         }
 
         .nutrition-text {
-            margin-left: 3%;
-            margin-right: 7%;
+            @include nutrition-text;
 
             .btn {
                 transition: none;
@@ -67,41 +34,33 @@
                     --bs-btn-disabled-color: black;
                     
                     &:hover {
-                        border-color:rgb(69, 1, 90);
-                        background-color: none;
+                        @include btn-primary-hover;
                     }
             
                     &:active {
-                        border-color:rgb(69, 1, 90);
-                        background-color: none;
+                        @include btn-primary-hover;
                     }
             
                     &:visited {
-                        border-color:rgb(69, 1, 90);
-                        background-color: none;
+                        @include btn-primary-hover;
                     }
             
                     &:link {
-                        border-color:rgb(69, 1, 90);
-                        background-color: none;
+                        @include btn-primary-hover;
                     }
                 }
             }
 
             .nutrition-deck {
-                font-size: 1rem;
-                margin-bottom: 1rem;
+                @include nutrition-deck;
             }
 
             .nutrition-headline {
-                font-size: 1.5rem;
-                margin-bottom: 1.2rem;
-                color: rgb(42, 37, 104);
+                @include nutrition-headline;
             }
         
             .nutrition-lead {
-                font-size: 1rem;
-               
+                @extend .nutrition-deck; 
             }
 
             .offcanvas.offcanvas-start {
@@ -118,7 +77,96 @@
                 }
             
                 .offcanvas-img-1 {
+                    @extend .offcanvas-subtitle;
+                }
+            }
+        }
+    }
+}
+
+
+.information-2 {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    background-color: white;
+
+    .information-title {
+        @include information-title;
+    }
+
+    .nutrition {
+        @include nutrition;
+
+        .dogs-eating {
+            @include dogs-eating;
+        }
+
+        .nutrition-text {
+            @include nutrition-text;
+
+            .btn {
+                transition: none;
+                --bs-btn-focus-box-shadow: none;
+                --bs-btn-disabled-opacity: none;
+            
+                .btn-primary {
+                    border-color:rgb(69, 1, 90);
+                    background-color: none;
                     margin-top: 2rem;
+                    --bs-btn-bg: none;
+                    --bs-btn-hover-bg: none;
+                    --bs-btn-active-bg: none;
+                    --bs-btn-disabled-bg: none;
+                    color: black;
+                    --bs-btn-hover-color: black;
+                    --bs-btn-active-color: black;
+                    --bs-btn-disabled-color: black;
+                    
+                    &:hover {
+                        @include btn-primary-hover;
+                    }
+            
+                    &:active {
+                        @include btn-primary-hover;
+                    }
+            
+                    &:visited {
+                        @include btn-primary-hover;
+                    }
+            
+                    &:link {
+                        @include btn-primary-hover;
+                    }
+                }
+            }
+
+            .nutrition-deck {
+                @include nutrition-deck;
+            }
+
+            .nutrition-headline {
+                @include nutrition-headline;
+            }
+        
+            .nutrition-lead {
+                @extend .nutrition-deck;             
+            }
+
+            .offcanvas.offcanvas-start {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                width: 600px;
+            
+                .offcanvas-highlight {
+                    font-weight: 600;
+                }
+            
+                .offcanvas-subtitle {
+                    margin-top: 2rem;
+                }
+            
+                .offcanvas-img-1 {
+                    @extend .offcanvas-subtitle;
                 }
             }            
 
@@ -127,10 +175,7 @@
 }
 
 .header-pages {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 3%;
-    margin-right: 13%;
+    @include header-pages;
 
     .dropdown-button {
         margin-left: -0.1%;
@@ -151,10 +196,7 @@
 }
 
 .header-pages {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 3%;
-    margin-right: 13%;
+    @include header-pages;
 
     .logo {
         width: 5rem;
@@ -171,7 +213,6 @@
 .see-more{
     margin-top: -5rem;
     margin-bottom: 1rem;
-    /* padding-top: 2rem; */
     text-align: center;
 
     .see-more-text {

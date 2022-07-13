@@ -37,66 +37,47 @@ header {
         }
 
         .dropdown-content {
-            display: list-item;
-            padding: 2rem;
-            justify-items: stretch;
+            @include dropdown-content;
         }
 
         .dropdown-inicio {
-            display: list-item;
-            padding: 2rem;
-            justify-items: stretch;
-            margin-bottom: 1rem;
-            padding: 0.3rem;
-            border-radius: 0.5rem;
+            @include dropdown-content;
+            @include dropdown-inicio;
                         
             &:hover{
-                background-color: rgba(15, 247, 138, 0.322);
-                color: black;
+                @include hover;
             }
         }
 
         .dropdown-articulos{
-            margin-bottom: 1rem;
-            padding: 0.3rem;
-            border-radius: 0.5rem;
+            @include dropdown-inicio;
 
             &:hover{
-                background-color: rgba(15, 247, 138, 0.322);
-                color: black;
+                @include hover;
             }
         }
 
         .dropdown-tienda{
-            margin-bottom: 1rem;
-            padding: 0.3rem;
-            border-radius: 0.5rem;
+            @include dropdown-inicio;
 
             &:hover{
-                background-color: rgba(15, 247, 138, 0.322);
-                color: black;
+                @include hover;
             }
         }
 
         .dropdown-servicios{
-            margin-bottom: 1rem;
-            padding: 0.3rem;
-            border-radius: 0.5rem;
+            @include dropdown-inicio;
 
             &:hover{
-                background-color: rgba(15, 247, 138, 0.322);
-                color: black;
+                @include hover;
             }
         }
 
         .dropdown-contacto{
-            margin-bottom: 1rem;
-            padding: 0.3rem;
-            border-radius: 0.5rem;
+            @include dropdown-inicio;
 
             &:hover{
-                background-color: rgba(15, 247, 138, 0.322);
-                color: black;
+                @include hover;
             }
         }
     }
@@ -107,33 +88,20 @@ header {
         padding: 2rem 5rem 2rem 5rem;
 
         .name-pyme {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            font-size: 200%;
-            letter-spacing: 0.5rem;
-            padding-top: 1rem;
+            @include name-pyme;
             border-top: solid 1px black;
-            animation-name: color;
-            animation-duration: 8s;
-            animation-iteration-count: 1;
+            @include logo;
         }
 
         .name-pyme-2 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            font-size: 200%;
+            @include name-pyme;
             padding-top: 10rem;
-            letter-spacing: 0.5rem;
             border-bottom: solid 1px black;
-            animation-name: color;
-            animation-duration: 8s;
-            animation-iteration-count: 1;
+            @include logo;
         }
 
         .logo {
-            animation-name: color;
-            animation-duration: 8s;
-            animation-iteration-count: 1;
+            @include logo;
         }
     }
 
@@ -154,7 +122,13 @@ header {
         
 }
 
-@keyframes color {
-    0% {opacity: 0%;}
-    100% {opacity: 100%;}
-}
+// @keyframes color {
+//     0% {opacity: 0%;}
+//     100% {opacity: 100%;}
+// }
+
+// @media only screen and (max-width: 320px) {
+//     .index-nav {
+//         display: block;
+//     }
+// }
